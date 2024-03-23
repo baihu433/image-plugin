@@ -33,7 +33,7 @@ export class example extends plugin {
     
     let random = Math.random()*10
     
-    let path = segment.image("/tmp/${random}.png")
+    let path = segment.image("/resources/${random}.png")
     
     await this.e.reply(segment.image(`${path}`))
     
