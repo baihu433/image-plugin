@@ -1,3 +1,4 @@
+// 基本参考 无用插件 感谢各位大佬 
 import fs from 'node:fs'
 import chalk from 'chalk'
 
@@ -10,14 +11,12 @@ if (!segment.button)
 let ret = []
 
 logger.info(chalk.rgb(0, 0, 204)(`---------awa---------`))
-logger.info(chalk.rgb(0, 0, 204)(`无用插件载入成功~qwq`))
-logger.info(chalk.rgb(0, 0, 204)(`Created By 曉K`))
-logger.info(chalk.rgb(0, 0, 204)(`我的原神星铁聊天群285258025`))
-logger.info(chalk.rgb(0, 0, 204)(`本插件聊天群861663639`))
+logger.info(chalk.rgb(0, 0, 204)(`图片插件载入成功 *^O^*`))
+logger.info(chalk.rgb(0, 0, 204)(`Created By baihu433`))
 logger.info(chalk.rgb(0, 0, 204)(`---------------------`));
 
 const files = fs
-  .readdirSync('./plugins/useless-plugin/apps')
+  .readdirSync('./plugins/image-plugin/apps')
   .filter((file) => file.endsWith('.js'))
 
   files.forEach((file) => {
